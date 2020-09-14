@@ -5,6 +5,7 @@ import SearchBar from './componets/layouts/SearchBar';
 import Logs from './componets/logs/Logs';
 import AddBtn from './componets/layouts/AddBtn';
 import AddLogsModal from './componets/logs/AddLogsModal';
+import EditLogModal from './componets/logs/EditLogModal';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className='container'>
         <AddBtn />
         <AddLogsModal />
+        <EditLogModal />
         <Logs />
       </div>
     </Fragment>
