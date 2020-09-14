@@ -1,0 +1,63 @@
+{
+  "logs": [
+    {
+      "message": "My computer is going to break! Halp!",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-01-09T22:09:00.718Z",
+      "id": 2
+    },
+    {
+      "message": "Test Message",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-01-09T22:40:05.285Z",
+      "id": 3
+    },
+    {
+      "message": "Test Message",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-01-09T22:44:31.673Z",
+      "id": 4
+    },
+    {
+      "id": 6,
+      "message": "Why can't I use ID #1?",
+      "attention": false,
+      "tech": "Ariella Yellow",
+      "date": "2020-01-10T21:41:31.450Z"
+    },
+    {
+      "id": 7,
+      "message": "This officially works, yay!",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-01-10T19:51:13.864Z"
+    },
+    {
+      "message": "New Techs Are Here!",
+      "attention": true,
+      "tech": "Clout Blue",
+      "date": "2020-01-10T21:21:17.764Z",
+      "id": 8
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Althilus",
+      "lastName": "Green"
+    },
+    {
+      "id": 2,
+      "firstName": "Clout",
+      "lastName": "Blue"
+    },
+    {
+      "id": 3,
+      "firstName": "Mayple",
+      "lastName": "Red"
+    }
+  ]
+}
