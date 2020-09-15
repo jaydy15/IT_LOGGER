@@ -10,6 +10,8 @@ import EditLogModal from './componets/logs/EditLogModal';
 import './App.css';
 import AddTechModal from './componets/techs/AddTechModal';
 import TechListModal from './componets/techs/TechListModal';
+import { Provider } from 'react-redux';
+import store from './store';
 
 function App() {
   useEffect(() => {
@@ -17,17 +19,19 @@ function App() {
     M.AutoInit();
   });
   return (
-    <Fragment>
-      <SearchBar />
-      <div className='container'>
-        <AddBtn />
-        <AddLogsModal />
-        <EditLogModal />
-        <AddTechModal />
-        <TechListModal />
-        <Logs />
-      </div>
-    </Fragment>
+    <Provider store={store}>
+      <Fragment>
+        <SearchBar />
+        <div className='container'>
+          <AddBtn />
+          <AddLogsModal />
+          <EditLogModal />
+          <AddTechModal />
+          <TechListModal />
+          <Logs />
+        </div>
+      </Fragment>
+    </Provider>
   );
 }
 
