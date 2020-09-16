@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TechListItem from './TechListItem';
+import { connect } from 'react-redux';
+import { getTechs } from './../../actions/techActions';
 
 const TechListModal = () => {
   const [techs, setTechs] = useState([]);
@@ -7,6 +9,7 @@ const TechListModal = () => {
 
   useEffect(() => {
     getTechs();
+
     //eslint-disable-next-line
   }, []);
 
@@ -31,4 +34,9 @@ const TechListModal = () => {
   );
 };
 
+const mapStateToProps = (state) => ({
+  tech: state.tech,
+});
+
+// export default connect(mapStateToProps, { getTechs })(TechListModal);
 export default TechListModal;
