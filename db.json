@@ -46,6 +46,11 @@
       "id": 2,
       "firstName": "Clout",
       "lastName": "Blue"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": 3
     }
   ]
 }
